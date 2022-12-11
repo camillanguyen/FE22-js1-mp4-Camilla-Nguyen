@@ -1,0 +1,51 @@
+*{
+    background-color: rgb(255, 192, 203);
+}
+/* Rubriken/namn */
+  .camilla-nguyen {
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+
+  }
+  .firstname{
+    margin-right: 20px;
+  }
+
+  img{
+    width: 250px;
+    height: 270px;
+  }
+
+  .imageContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ageContainer span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  pre{
+    margin: 0 10px 0 10px;
+  }
+
+  #buttonContainer{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  button{
+    border-radius: 8px;
+    border-color: rgb(193, 81, 137);
+    margin: 0 10px 0;
+    background-color: rgb(196, 184, 184);
+    color: rgb(193, 81, 137);
+    }
